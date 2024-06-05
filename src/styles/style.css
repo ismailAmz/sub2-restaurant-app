@@ -20,7 +20,7 @@ html {
   padding: 8px;
   background-color: blue;
   color: white;
-  z-index: 9999;
+  z-index: 9999999;
   transition: 0.3s;
   font-weight: bold;
   font-size: 0.8rem;
