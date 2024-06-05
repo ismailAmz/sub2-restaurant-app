@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free rekomended restaurant for you">
+  <meta name="theme-color" content="#007BFF"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
+  <link rel="icon" href="./favicon.png">
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+ 
+  <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+  <title>Mail Restaurant</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <button class="nav__toggle" id="nav-toggle" >
+          <i class="fa-solid fa-bars" tabindex="0"></i>
+        </button>
+          <nav class="nav">
+            <div>
+              <a href="#" class="nav__logo">Mail<span>Restaurant</span></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                <li>
+                  <a href="/" class="nav__item">Home</a>
+                  <!-- <a href="/list" class="nav__item">Restaurant</a> -->
+                  <a href="#/like" class="nav__item">Favorite</a>
+                  <a href="#" class="nav__item">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <section class="hero"></section>
+        <main id="maincontent">
+            <!-- data restaurant -->
+            <restaurant-list class="restaurant-container"></restaurant-list>
+          </main>
+        <footer class="footer" id="footer">
+            <p class="footer__title">Mail<span>Restaurant<span></p>
+        
+            <div class="footer__social">
+              <a href="https://github.com/ismailAmz" class="footer__icon"><i class="fa-brands fa-github"></i></a>
+              <a href="https://instagram.com/ismailAmz_" class="footer__icon"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://twitter.com/ismailAmz_" class="footer__icon"><i class="fa-brands fa-twitter"></i></a>
+        
+              <p>&#169; 2024 copyright all right reserved</p>
+            </div>
+        </footer>
+</body>
+</html>

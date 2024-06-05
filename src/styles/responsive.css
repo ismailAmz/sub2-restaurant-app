@@ -1,0 +1,90 @@
+@media (min-width: 1200px) {
+    .hero {
+      min-width: 1000px; /* Tetapkan lebar minimal 1000px */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav__toggle {
+      position: absolute;
+      padding: 0.6rem;
+      margin-left: 84.5%;
+    }
+  
+    .nav__logo {
+      font-size: 1.6rem;
+    }
+  
+    .nav__toggle {
+      display: inline-block;
+      min-height: 44px;
+      min-width: 44px;
+    }
+  
+    .nav__menu {
+      position: fixed;
+      width: 60%;
+      top: 3.5rem;
+      left: -60%;
+      bottom: 0;
+      background-color: rgba(10, 10, 65, 0.938);
+      transition: 0.3s;
+    }
+  
+    .nav__item {
+      display: flex;
+      padding: 1rem;
+      color: #fff;
+      transition: 0.3s;
+    }
+  
+    .nav__item:hover {
+      background-color: #ffffffc9;
+      color: #000;
+    }
+  
+    .footer__icon {
+      display: inline-block;
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+  
+  @media screen and (max-width: 414px) {
+    .nav__toggle {
+      position: absolute;
+      padding: 0.6rem;
+      margin-left: 80%;
+      display: inline-block;
+      min-height: 44px;
+      min-width: 44px;
+    }
+  
+    .nav__logo {
+      font-size: 1.4rem;
+    }
+  
+    .nav__menu {
+      width: 70%;
+      left: -70%;
+    }
+  
+    .title__content > h1 {
+      font-size: 1.3rem;
+    }
+  
+    .card > h2 {
+      font-size: 1.3rem;
+    }
+  
+    .card > p {
+      font-size: 0.9rem;
+    }
+  
+    .footer__icon {
+      display: inline-block;
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+  
