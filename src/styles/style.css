@@ -174,7 +174,6 @@ html {
 .card > h2 {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 1.5rem;
   color: #333;
 }
 
@@ -182,6 +181,7 @@ html {
   text-decoration: none;
   color: inherit;
   transition: color 0.3s;
+  font-size: 2rem;
 }
 
 .card > h2 a:hover {

@@ -2,7 +2,7 @@ import CONFIG from '../../globals/config';
 
 const createRestaurantDetailTemplate = (restaurant) => `
 <h3 class="restaurant__title">${restaurant.name || 'N/A'}</h3>
-<img class="restaurant__poster" src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="${restaurant.name || 'N/A'}" />
+<img class="restaurant__poster" crossorigin="anonymous" src="${CONFIG.BASE_IMAGE_URL + restaurant.pictureId}" alt="${restaurant.name || 'N/A'}" />
     <div class="restaurant__info">
       <h3>Informasi</h3>
       <h4>Alamat</h4>
@@ -42,7 +42,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
 const createRestaurantItemTemplate = (restaurant) => `
     <div class="card" tabindex="0">
         <h2 tabindex="0"><a href="/#/detail/${restaurant.id}">${restaurant.name}</a></h2>
-        <img src="${restaurant.pictureId ? CONFIG.BASE_IMAGE_URL + restaurant.pictureId : 'https://picsum.photos/id/666/800/450?grayscale'}" alt="Gambar ${restaurant.name}" tabindex="0">
+        <img crossorigin="anonymous" src="${restaurant.pictureId ? CONFIG.BASE_IMAGE_URL + restaurant.pictureId : 'https://picsum.photos/id/666/800/450?grayscale'}" alt="Gambar ${restaurant.name}" tabindex="0">
         <p tabindex="0">Kota: ${restaurant.city}</p>
         <p tabindex="0">⭐️ Rating: ${restaurant.rating}</p>
     </div>
