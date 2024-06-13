@@ -6,6 +6,10 @@ const LikeButtonInitiator = {
     this._likeButtonContainer = likeButtonContainer;
     this._restaurant = restaurant;
 
+    if (!this._restaurant || !this._restaurant.id) {
+      return;
+    }
+
     await this._renderButton();
   },
 
